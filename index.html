@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Todo App</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <header>
+        <h1><i class="fa-solid fa-list-check"></i> Todo App</h1>
+        <p>Stay organized and productive</p>
+    </header>
+
+    <!-- Search -->
+    <div class="search-box">
+        <input type="text" id="searchTask" placeholder="🔍 Search tasks...">
+    </div>
+
+    <!-- Input Section -->
+    <div class="input-section">
+
+        <input
+            type="text"
+            id="taskInput"
+            placeholder="Enter your task">
+
+        <input
+            type="date"
+            id="dueDate">
+
+        <select id="priority">
+
+            <option value="Low">🟢 Low</option>
+
+            <option value="Medium" selected>🟡 Medium</option>
+
+            <option value="High">🔴 High</option>
+
+        </select>
+
+        <button id="addTask">
+            <i class="fa-solid fa-plus"></i>
+            Add Task
+        </button>
+
+    </div>
+
+    <!-- Statistics -->
+    <div class="stats">
+
+        <div class="card">
+            <h3 id="totalTasks">0</h3>
+            <span>Total</span>
+        </div>
+
+        <div class="card">
+            <h3 id="completedTasks">0</h3>
+            <span>Completed</span>
+        </div>
+
+        <div class="card">
+            <h3 id="pendingTasks">0</h3>
+            <span>Pending</span>
+        </div>
+
+    </div>
+
+    <!-- Filters -->
+    <div class="filters">
+
+        <button class="filter active" data-filter="all">
+            All
+        </button>
+
+        <button class="filter" data-filter="completed">
+            Completed
+        </button>
+
+        <button class="filter" data-filter="pending">
+            Pending
+        </button>
+
+    </div>
+
+    <!-- Empty Message -->
+    <div id="emptyMessage">
+        📋 No tasks yet.<br>
+        Add your first task!
+    </div>
+
+    <!-- Task List -->
+    <ul id="taskList">
+
+    </ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
