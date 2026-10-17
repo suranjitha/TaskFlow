@@ -18,14 +18,14 @@ This is a simple and responsive TaskFlow application that helps users manage the
 ## How to Run
 1. Clone this repository:
    bash
-   git clone https://github.com/suranjitha/to-do-app.git
+2. git clone https://github.com/suranjitha/TaskFlow.git
    
-2. Open the project folder.
-3. Open index.html in your web browser.
+3. Open the project folder.
+4. Open index.html in your web browser.
 
 ## Project Structure
 
-todo-app/
+TaskFlow
 ├── index.html
 ├── style.css
 ├── script.js
