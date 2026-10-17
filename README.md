@@ -1,7 +1,7 @@
-# To-Do App
+# TaskFlow
 
 ## Description
-This is a simple and responsive To-Do application that helps users manage their daily tasks. Users can add, edit, delete, and mark tasks as completed.
+This is a simple and responsive TaskFlow application that helps users manage their daily tasks. Users can add, edit, delete, and mark tasks as completed.
 
 ## Features
 - Add new tasks
