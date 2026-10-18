@@ -18,7 +18,7 @@ This is a simple and responsive TaskFlow application that helps users manage the
 ## How to Run
 1. Clone this repository:
    bash
-2. git clone https://github.com/suranjitha/TaskFlow.git
+2. git clone      https://github.com/suranjitha/TaskFlow.git
    
 3. Open the project folder.
 4. Open index.html in your web browser.
@@ -33,10 +33,10 @@ TaskFlow
 
 
 ## Future Improvements
-- Store tasks using Local Storage
-- Add task categories
-- Add due dates
-- Dark mode
+1. Store tasks using Local Storage
+2. Add task categories
+3.Add due dates
+4.Dark mode
 
 ## Author
 Suranjitha S
